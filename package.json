@@ -11,6 +11,7 @@
     "test:watch": "yarn test --watch",
     "generate": "yarn plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
+    "sb": "yarn run storybook",
     "build-storybook": "build-storybook -s ./public"
   },
   "husky": {
